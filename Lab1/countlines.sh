@@ -39,7 +39,6 @@ while getopts ":o:m:" option; do
     m)
       MONTH=$OPTARG
       ;;
-    -) echo "hi" ;;
     :)                                   
       exit_abnormal "Option -$OPTARG requires a value."
       ;;
